@@ -19,4 +19,6 @@
 	}
 ?>
 
+<h2> Welcome <?php echo $_SESSION["username"];?> (<?=$_SESSION["user_id"];?>) </h2>
+
 <a href="?logout=1" >Log out</a>
